@@ -32,5 +32,5 @@ npm install
 ```
 node app.js
 ```
-
-### Finished
+# Finished
+Access https://**yourHostIP**:3000/api/qa?question=**yourquestion** through the get method to obtain json data
