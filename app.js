@@ -43,7 +43,6 @@ function getGPTAnswer(question){
 				  reject(err);
 				  req.abort();
 			  };
-			  console.log()
 			  reslove(body);
 			  req.abort();
 		});
