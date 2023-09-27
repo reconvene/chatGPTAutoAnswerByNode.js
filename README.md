@@ -1,7 +1,8 @@
 # chatGPTAnswer
 A chatGPT API encapsulated by Node.js+Express
 
-**Thanks to this project for bringing the API**  [chatanywhere/GPT_API_free](https://github.com/chatanywhere/GPT_API_free) /n
+**Thanks to this project for bringing the API**  [chatanywhere/GPT_API_free](https://github.com/chatanywhere/GPT_API_free) 
+
 This is a simple project. Its purpose is to encapsulate the chatgpt API through Node.js+Express to achieve the desired effect.
 
 HOW TO USE
