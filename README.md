@@ -13,7 +13,7 @@ The version of Node.js is **18.18.0 LTS**
 
 1.  Git this project to the computer
 ```
-git clone https://github.com/reconvene/chatGPTAnswer.git
+git clone https://github.com/reconvene/chatGPTAtuoAnswerByNode.js.git
 ```
 
 2. Modify the apikey in the header variable in the code
