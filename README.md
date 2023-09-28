@@ -9,6 +9,7 @@ HOW TO USE
 ---
 
 Configure the system environment of Node.js
+
 The version of Node.js is **18.18.0 LTS**
 
 1.  Git this project to the computer
