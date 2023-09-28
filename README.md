@@ -1,4 +1,4 @@
-# chatGPTAnswer
+# chatGPTAtuoAnswerByNode.js
 A chatGPT API encapsulated by Node.js+Express
 
 **Thanks to this project for bringing the API**  [chatanywhere/GPT_API_free](https://github.com/chatanywhere/GPT_API_free) 
