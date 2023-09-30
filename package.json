@@ -1,6 +1,6 @@
 {
-  "name": "chatGPTAtuoAnswer",
-  "version": "1.0.0",
+  "name": "chatGPTAutoAnswer",
+  "version": "1.1.0",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "GPL-3.0",
   "dependencies": {
-    "express": "^4.18.2",
-    "request": "^2.88.2"
+    "axios": "^1.5.1",
+    "express": "^4.18.2"
   }
 }
