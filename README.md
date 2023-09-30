@@ -1,4 +1,4 @@
-# chatGPTAtuoAnswerByNode.js
+# chatGPTAutoAnswerByNode.js
 A chatGPT API encapsulated by Node.js+Express
 
 **Thanks to this project for bringing the API**  [chatanywhere/GPT_API_free](https://github.com/chatanywhere/GPT_API_free) 
@@ -13,14 +13,20 @@ The version of Node.js is **18.18.0 LTS**
 
 1.  Git this project to the computer
 ```
-git clone https://github.com/reconvene/chatGPTAnswer.git
+git clone https://github.com/reconvene/chatGPTAutoAnswer.git
 ```
 
-2. Modify the apikey in the header variable in the code
+2. Replace *‘!!!-----yourAPIKey-----!!!’* with your APIKey
+   *Do not delete the preceding ‘Bearer’*
 ```
-const headers = {
-	'Content-Type': 'application/json',  
-	'Authorization': 'Bearer yourAPIKey'
+const config={
+	// 设置请求的头部，包含内容类型和授权密钥
+	headers: {
+		'Content-Type': 'application/json',
+		'Authorization': 'Bearer !!!-----yourAPIKey-----!!!'
+	},
+	//设置超时时间
+	timeout: 5000
 };
 ```
 
