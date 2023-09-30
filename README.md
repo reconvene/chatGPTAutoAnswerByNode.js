@@ -1,4 +1,7 @@
-# chatGPTAutoAnswerByNode.js
+# chatGPTAutoAnswerForOCS
+
+**This branch is specifically adapted to OCS**
+
 A chatGPT API encapsulated by Node.js+Express
 
 **Thanks to this project for bringing the API**  [chatanywhere/GPT_API_free](https://github.com/chatanywhere/GPT_API_free) 
@@ -42,5 +45,22 @@ npm install
 ```
 node app.js
 ```
+
+5. Add some code to the OCS configuration interface
+   
+   **Don’t forget to replace ‘yourServerIP‘**
+```
+[
+  {
+    "url": "http://yourServerIP:3000/api/qa?question=${title}&type=${type}&options=${options}",
+    "name": "GPTAnswer",
+    "method": "get",
+    "contentType": "json",
+    "handler": "return (res)=> {return res.GPTstatus === 400 ? undefined : [res.title, res.answer]}"
+  }
+]
+```
 # Finished
 Access http://**yourServerIP**:3000/api/qa?question=**yourquestion** through the **GET** method to obtain JSON data
+
+Enjoy your GPT-enabled OCS:)
