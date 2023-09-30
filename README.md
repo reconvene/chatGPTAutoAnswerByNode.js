@@ -65,4 +65,4 @@ Access http://**yourServerIP**:3000/api/qa?question=**yourquestion** through the
 
 Enjoy your GPT-enabled OCS:)
 
-(chatGPTAutoAnswerForOCS)[https://github.com/reconvene/chatGPTAutoAnswerForOCS] repository synchronizes with this OCS branch
+[chatGPTAutoAnswerForOCS](https://github.com/reconvene/chatGPTAutoAnswerForOCS) repository synchronizes with this OCS branch
