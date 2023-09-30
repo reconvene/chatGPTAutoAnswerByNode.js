@@ -64,3 +64,5 @@ node app.js
 Access http://**yourServerIP**:3000/api/qa?question=**yourquestion** through the **GET** method to obtain JSON data
 
 Enjoy your GPT-enabled OCS:)
+
+(chatGPTAutoAnswerForOCS)[https://github.com/reconvene/chatGPTAutoAnswerForOCS] repository synchronizes with this OCS branch
