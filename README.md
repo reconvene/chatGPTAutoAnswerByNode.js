@@ -16,7 +16,7 @@ The version of Node.js is **18.18.0 LTS**
 git clone https://github.com/reconvene/chatGPTAutoAnswer.git
 ```
 
-2.  ##Don't forget this step
+2.  ## Don't forget this step
 
     Replace **‘!!!-----yourAPIKey-----!!!’** with your **APIKey**
    
