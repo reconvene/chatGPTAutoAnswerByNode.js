@@ -16,8 +16,11 @@ The version of Node.js is **18.18.0 LTS**
 git clone https://github.com/reconvene/chatGPTAutoAnswer.git
 ```
 
-2. Replace *‘!!!-----yourAPIKey-----!!!’* with your APIKey
-   *Do not delete the preceding ‘Bearer’*
+2.  ##Don't forget this step
+
+    Replace **‘!!!-----yourAPIKey-----!!!’** with your **APIKey**
+   
+    *Do not delete the preceding ‘Bearer’*
 ```
 const config={
 	// 设置请求的头部，包含内容类型和授权密钥
