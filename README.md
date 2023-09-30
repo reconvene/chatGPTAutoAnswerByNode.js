@@ -16,7 +16,7 @@ The version of Node.js is **18.18.0 LTS**
 
 1.  Git this project to the computer
 ```
-git clone https://github.com/reconvene/chatGPTAutoAnswer.git
+git clone https://github.com/reconvene/chatGPTAutoAnswerByNode.js.git
 ```
 
 2.  Don't forget this step
