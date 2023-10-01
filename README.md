@@ -16,7 +16,7 @@ The version of Node.js is **18.18.0 LTS**
 
 1.  Git this project to the computer
 ```
-git clone https://github.com/reconvene/chatGPTAutoAnswerByNode.js.git
+git clone https://github.com/reconvene/chatGPTAutoAnswerForOCS.git
 ```
 
 2.  Don't forget this step
@@ -32,7 +32,7 @@ const config={
 		'Authorization': 'Bearer !!!-----yourAPIKey-----!!!'
 	},
 	//设置超时时间
-	timeout: 5000
+	//timeout: 10000
 };
 ```
 
@@ -51,13 +51,13 @@ node app.js
    **Don’t forget to replace ‘yourServerIP‘**
 ```
 [
-  {
-    "url": "http://yourServerIP:3000/api/qa?question=${title}&type=${type}&options=${options}",
-    "name": "GPTAnswer",
-    "method": "get",
-    "contentType": "json",
-    "handler": "return (res)=> {return res.GPTstatus === 400 ? undefined : [res.title, res.answer]}"
-  }
+    {
+        "url": "http://127.0.0.1:3000/api/qa?question=${title}&type=${type}&options=${options}",
+        "name": "GPTAnswer",
+        "method": "get",
+        "contentType": "json",
+        "handler": "return (res) => {try {return res.GPTstatus === 400 ? [res.title, undefined] : JSON.parse(res.answer).map(a => ([res.title, a]));} catch (err) {return [res.title, res.answer];};}"
+    }
 ]
 ```
 # Finished
